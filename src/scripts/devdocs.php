@@ -9,7 +9,7 @@ require_once 'vendor/autoload.php';
 require_once 'workflows.php';
 
 class DevDocs {
-  private static $docUrl = 'http://docs.devdocs.io/';
+  private static $docUrl = 'https://devdocs.io/docs/';
   private static $cacheDirectory = 'cache/';
 
   private $workflows;

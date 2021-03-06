@@ -21,7 +21,7 @@ require_once 'workflows.php';
 class DevDocsConf {
 
   private static $baseUrl = 'https://devdocs.io/';
-  private static $docUrl = 'https://docs.devdocs.io/';
+  private static $docUrl = 'https://devdocs.io/docs/';
   private static $cacheDirectory = 'cache/';
 
   private $commands = ['add' => 1, 'remove' => 1, 'refresh' => 1, 'list' => 1, 'alias' => 1, 'unalias' => 1, 'select' => 0, 'addAll' => 0, 'nuke' => 0];
